@@ -1,0 +1,25 @@
+POST http://127.0.0.1:8000/api/login
+Content-Type: application/json
+
+{"username": "Adm", "password": "Admin1"}
+
+###
+
+POST http://127.0.0.1:8000/api/signup
+Content-Type: application/json
+
+{"username": "AzDeskAdminDev0",
+ "password": "Deviante98x!!",
+  "email": "Konstantinos.georgiou1981@gmail.com",
+  "is_active": "True",
+  "is_superuser": "True",
+  "is_staff": "True"}
+
+###
+
+GET http://127.0.0.1:8000/api/test_token
+Content-Type: application/json
+
+{}
+
+###
